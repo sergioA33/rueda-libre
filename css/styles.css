@@ -4,12 +4,14 @@ table {
 }
 
 th, td {
+ border: 1px solid black;    
     padding: 10px;
     text-align: center;
 }
 
-th 
-
+th {
+ background-color: lightgray;
+}
 caption {
     margin-bottom: 12px;
     font-weight: bold;

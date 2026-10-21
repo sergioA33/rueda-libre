@@ -1,6 +1,27 @@
 proyecto: rueda libre 
+en el mini reto 1:
+prepare las carpetas para enmepzar a desarrollar 
+la actividad,donde hice un arcivo principal de la pagina,abri el sitio 
+con live server y revise como cargaba en el navegador,el codigo 200 significa 
+que cargo bien y el codigo 404 que no se encontro la pagina, entendi que html 
+sirve para darle el orden al contenido y css es la que da el estilo.
 
-prueba 1: se creo la pagina principal.
-prueba 2: se creo las paginas rutas y tarifas.
-prueba 3: se agrego un menu para navegar entre las paginas.
-decision: se utilizaron etiquetas html basicas.
+
+mini reto2:
+en el mini reto 2 organice la pagina del inicio con titulos,
+subtitulos,texto,imagenes y listas.agrege los servicios que fueron los 
+beneficios y como adquirir una bicicleta. tambien agregre un link para vr la ubicacion 
+y escribir al correo 
+
+mini reto 3:
+en el mini reto 3 hice los archivos para las rutas, los precios,
+con las indicaciones que pedia el cliente.le di estilo a las tablas con css 
+para que se viera mejor distribuido, fue un estilo sencillo pero que le aporta al siti web 
+
+mini reto 4:
+en el mini reto 4 realice los horario, que incluye y que llevar para hacer un recorrido guiado
+tambien agregre un correo donde se puede hacer la reservacion 
+
+con este proyecto aprendi a crear una pagina web, organizar su contenido, agregar imagenes y enlaces
+mostrar precios en tablas y guardar el proyecto con git y github.
+
