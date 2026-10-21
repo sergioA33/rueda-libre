@@ -1,6 +1,6 @@
 proyecto: rueda libre 
 
 prueba 1: se creo la pagina principal.
-prueba 2: se crearon las paginas de rutas y tarifas.
+prueba 2: se creo las paginas rutas y tarifas.
 prueba 3: se agrego un menu para navegar entre las paginas.
 decision: se utilizaron etiquetas html basicas.
