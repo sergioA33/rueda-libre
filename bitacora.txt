@@ -1,11 +1,11 @@
 proyecto: rueda libre 
+
 en el mini reto 1:
 prepare las carpetas para enmepzar a desarrollar 
 la actividad,donde hice un arcivo principal de la pagina,abri el sitio 
 con live server y revise como cargaba en el navegador,el codigo 200 significa 
 que cargo bien y el codigo 404 que no se encontro la pagina, entendi que html 
 sirve para darle el orden al contenido y css es la que da el estilo.
-
 
 mini reto2:
 en el mini reto 2 organice la pagina del inicio con titulos,
@@ -20,8 +20,12 @@ para que se viera mejor distribuido, fue un estilo sencillo pero que le aporta a
 
 mini reto 4:
 en el mini reto 4 realice los horario, que incluye y que llevar para hacer un recorrido guiado
-tambien agregre un correo donde se puede hacer la reservacion 
-
+tambien agregre un correo donde se puede hacer la reservacion,
 con este proyecto aprendi a crear una pagina web, organizar su contenido, agregar imagenes y enlaces
 mostrar precios en tablas y guardar el proyecto con git y github.
+
+mini reto 5:organice la pagina del inicio con header nav main section
+y footer mantuve el contenido de las imagenes y los enlaces tambien se mantuvieron
+en inicio organice los servicios en articulos en tarifas organice las tablas y en reservas organice el
+contacto y los horarios. 
 
