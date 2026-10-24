@@ -29,3 +29,6 @@ y footer mantuve el contenido de las imagenes y los enlaces tambien se mantuvier
 en inicio organice los servicios en articulos en tarifas organice las tablas y en reservas organice el
 contacto y los horarios. 
 
+mini reto 6: agregue un formulario con tres grupos, tus datos de alquiler y confirmacion
+inclui campos para datos personales, la fecha, el tipo de bicicleta, el plan, la cantidad de personas 
+y el tipo de recorrido y los comentarios.
