@@ -36,3 +36,7 @@ y el tipo de recorrido y los comentarios.
 mini reto 7: agregue validaciones para pedir los datos obligatrios y revisar el numero de documento y tambien verificar el numero 
 tambien imprementar que se limite la cantidad de bicicletas
 
+mini reto 8: resive los titulos las iamgenes en los enlaces y la navegacion con el teclado organice los colores 
+en css utilizando el naranja, verde, azul crema y gris para mejorar el diseño de la pagina
+
+mini reto 9:
