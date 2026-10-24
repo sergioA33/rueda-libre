@@ -32,3 +32,7 @@ contacto y los horarios.
 mini reto 6: agregue un formulario con tres grupos, tus datos de alquiler y confirmacion
 inclui campos para datos personales, la fecha, el tipo de bicicleta, el plan, la cantidad de personas 
 y el tipo de recorrido y los comentarios.
+
+mini reto 7: agregue validaciones para pedir los datos obligatrios y revisar el numero de documento y tambien verificar el numero 
+tambien imprementar que se limite la cantidad de bicicletas
+
