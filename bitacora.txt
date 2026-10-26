@@ -36,7 +36,10 @@ y el tipo de recorrido y los comentarios.
 mini reto 7: agregue validaciones para pedir los datos obligatrios y revisar el numero de documento y tambien verificar el numero 
 tambien imprementar que se limite la cantidad de bicicletas
 
-mini reto 8: resive los titulos las iamgenes en los enlaces y la navegacion con el teclado organice los colores 
-en css utilizando el naranja, verde, azul crema y gris para mejorar el diseño de la pagina
+mini reto 8: resive los titulos las iamgenes en los enlaces y la navegacion con el teclado revisando que todo funcionara bien 
+despues de esto vamos a empezar a implementar los colores en css 
 
-mini reto 9:
+mini reto 9: implemente los colores en ccs utilizando style, se conecto con los demas proyectos para que a la hora de abrir el sitio web 
+todo se vea de mejor manera use colores como :gris, naranja, verde, blanco, azul y se mezclaron 
+
+mini reto 10:

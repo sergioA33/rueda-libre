@@ -1,3 +1,10 @@
+:root{
+  --azul-oscuro: #14213D;
+    --gris-asfalto: #5B6470;
+    --verde-ruta: #1E7A4F;
+    --naranja: #F39A2B;
+    --fondo: #FAF6EF;
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #FAF6EF;
@@ -21,23 +28,29 @@ header {
 header h1 {
     color: white;
 }
-
-
 nav {
-    background-color: #14213D;
-    padding: 15px;
-    text-align: center;
-}
-
-nav a {
-    color: white;
-    margin: 10px;
-}
-
-nav a:hover {
-    color: #F39A2B;
-}
-
+ background-color: #14213D;
+ padding: 15px;
+ text-align: center;
+ }
+ #menu a {
+ color: white;
+ margin: 10px;
+ }
+ #menu a:hover {
+ color: #FFD166;
+ text-decoration: underline;
+ }
+  #menu a.activo {
+ color: #FFD166;
+ font-weight: bold;
+ text-decoration: underline;
+ }
+ #menu a:focus {
+ color: #FFD166;
+ outline: 3px solid #FFD166;
+ outline-offset: 4px;
+  }
 main {
     padding: 20px;
 }
@@ -113,7 +126,7 @@ footer {
 footer a {
     color: white;
 }
-@media (max-width: 600px) {
+  @media (max-width: 600px) {
     nav a {
         display: block;
         margin: 10px;
