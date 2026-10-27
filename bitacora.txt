@@ -42,4 +42,11 @@ despues de esto vamos a empezar a implementar los colores en css
 mini reto 9: implemente los colores en ccs utilizando style, se conecto con los demas proyectos para que a la hora de abrir el sitio web 
 todo se vea de mejor manera use colores como :gris, naranja, verde, blanco, azul y se mezclaron 
 
-mini reto 10:
+mini reto 10: en este mini retomejore los estilos del menu,los enlace, el boton de reserva y los formularios.agregue la clase activo
+para identificar la pagina actual y corregi el problema
+
+mini reto 11:en el mini reto 11 organice lo de css para terminar de complementar la pagina, utilice box-sizing: para mejorar los tamaños(eso lo saque primcipalmente
+de busquedad en internet ya que no enetndia como aplicarlo), tambien mejore las tarjetas de servicio para que se viera mas organizado, lo mismo con las tablas,
+los formularios y el menu. 
+
+mini reto 12:

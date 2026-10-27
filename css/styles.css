@@ -1,91 +1,189 @@
-:root{
-  --azul-oscuro: #14213D;
+
+
+:root {
+    --azul-oscuro: #14213D;
     --gris-asfalto: #5B6470;
     --verde-ruta: #1E7A4F;
     --naranja: #F39A2B;
     --fondo: #FAF6EF;
+    --espacio-1: 0.5rem;
+    --espacio-2: 1rem;
+    --espacio-3: 1.5rem;
+    --espacio-4: 2rem;
 }
+
+
+* {
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #FAF6EF;
-    color: #5B6470;
+    background-color: var(--fondo);
+    color: var(--gris-asfalto);
     margin: 0;
     padding: 0;
 }
 
+
 h1, h2, h3 {
-    color: #14213D;
+    color: var(--azul-oscuro);
 }
 
 
 header {
-    background-color: #14213D;
+    background-color: var(--azul-oscuro);
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: var(--espacio-3);
 }
+
 
 header h1 {
     color: white;
 }
+
+
 nav {
- background-color: #14213D;
- padding: 15px;
- text-align: center;
- }
- #menu a {
- color: white;
- margin: 10px;
- }
- #menu a:hover {
- color: #FFD166;
- text-decoration: underline;
- }
-  #menu a.activo {
- color: #FFD166;
- font-weight: bold;
- text-decoration: underline;
- }
- #menu a:focus {
- color: #FFD166;
- outline: 3px solid #FFD166;
- outline-offset: 4px;
-  }
-main {
-    padding: 20px;
+    background-color: var(--azul-oscuro);
+    padding: var(--espacio-2);
+    text-align: center;
 }
 
+
+#menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--espacio-2);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+#menu a {
+    color: white;
+    margin: var(--espacio-1);
+    display: inline-block;
+}
+
+
+#menu a:hover {
+    color: #FFD166;
+    text-decoration: underline;
+}
+
+
+#menu a.activo {
+    color: #FFD166;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+#menu a:focus {
+    color: #FFD166;
+    outline: 3px solid #FFD166;
+    outline-offset: 4px;
+}
+
+
+main {
+    width: 100%;
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: var(--espacio-3);
+}
+
+
+.portada {
+    min-height: 70vh;
+}
+
+
+.servicios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--espacio-3);
+}
+
+
+.servicio {
+    flex: 1 1 15rem;
+    padding: var(--espacio-3);
+    border: 1px solid var(--gris-asfalto);
+    border-radius: var(--espacio-1);
+}
+
+
+.servicio img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
 a {
-    color: #1E7A4F;
-  }
+    color: var(--verde-ruta);
+}
+
+
+.boton-reservar {
+    display: inline-block;
+    background-color: var(--verde-ruta);
+    color: white;
+    padding: var(--espacio-2) var(--espacio-3);
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.boton-reservar:hover {
+    background-color: var(--azul-oscuro);
+    color: white;
+}
+
+
+.boton-reservar:focus {
+    outline: 3px solid var(--naranja);
+    outline-offset: 3px;
+}
+
 
 button {
-    background-color: #1E7A4F;
+    background-color: var(--verde-ruta);
     color: white;
-    padding: 10px 15px;
+    padding: var(--espacio-2) var(--espacio-3);
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
+
 button:hover {
-    background-color: #14213D;
+    background-color: var(--azul-oscuro);
 }
 
 
 table {
     width: 100%;
     border-collapse: collapse;
+    margin: var(--espacio-3) 0;
 }
 
+
 th, td {
-    border: 1px solid #5B6470;
-    padding: 10px;
+    border: 1px solid var(--gris-asfalto);
+    padding: var(--espacio-2);
     text-align: center;
 }
 
+
 th {
-    background-color: #14213D;
+    background-color: var(--azul-oscuro);
     color: white;
 }
 
@@ -98,39 +196,47 @@ img {
 
 label {
     display: block;
-    margin-top: 10px;
-    color: #14213D;
+    margin-top: var(--espacio-2);
+    margin-bottom: var(--espacio-1);
+    color: var(--azul-oscuro);
 }
 
+
 input, select, textarea {
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    border: 1px solid #5B6470;
+    display: block;
+    width: 100%;
+    padding: var(--espacio-2);
+    margin-bottom: var(--espacio-2);
+    border: 1px solid var(--gris-asfalto);
     border-radius: 4px;
 }
 
 
 a:focus, button:focus, input:focus, textarea:focus, select:focus {
-    outline: 3px solid #F39A2B;
+    outline: 3px solid var(--naranja);
+    outline-offset: 2px;
 }
 
 
 footer {
-    background-color: #14213D;
+    background-color: var(--azul-oscuro);
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: var(--espacio-3);
 }
+
 
 footer a {
     color: white;
 }
-  @media (max-width: 600px) {
-    nav a {
-        display: block;
-        margin: 10px;
+
+
+@media (max-width: 600px) {
+    #menu {
+        flex-direction: column;
+        align-items: center;
     }
+
 
     table {
         font-size: 14px;
