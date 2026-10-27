@@ -49,4 +49,5 @@ mini reto 11:en el mini reto 11 organice lo de css para terminar de complementar
 de busquedad en internet ya que no enetndia como aplicarlo), tambien mejore las tarjetas de servicio para que se viera mas organizado, lo mismo con las tablas,
 los formularios y el menu. 
 
-mini reto 12:
+mini reto 12: en este mini reto agregue el boton de whatsapp, le di los ulimos retoque al css, agregue la etiqueta nuevo en la bicicleta electrica, tamben 
+organice los estilos para que mantuvieran los mismos colores que ya tenia realizados

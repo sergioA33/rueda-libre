@@ -1,5 +1,3 @@
-
-
 :root {
     --azul-oscuro: #14213D;
     --gris-asfalto: #5B6470;
@@ -12,11 +10,9 @@
     --espacio-4: 2rem;
 }
 
-
 * {
     box-sizing: border-box;
 }
-
 
 body {
     font-family: Arial, sans-serif;
@@ -24,33 +20,29 @@ body {
     color: var(--gris-asfalto);
     margin: 0;
     padding: 0;
+    padding-bottom: 70px;
 }
-
 
 h1, h2, h3 {
     color: var(--azul-oscuro);
 }
 
-
 header {
     background-color: var(--azul-oscuro);
     color: white;
     text-align: center;
-    padding: var(--espacio-3);
+    padding: 20px;
 }
-
 
 header h1 {
     color: white;
 }
 
-
 nav {
     background-color: var(--azul-oscuro);
-    padding: var(--espacio-2);
+    padding: 15px;
     text-align: center;
 }
-
 
 #menu {
     display: flex;
@@ -62,33 +54,26 @@ nav {
     margin: 0;
 }
 
-
 #menu a {
     color: white;
-    margin: var(--espacio-1);
-    display: inline-block;
+    margin: 10px;
 }
 
-
-#menu a:hover {
-    color: #FFD166;
-    text-decoration: underline;
-}
-
-
+#menu a:hover,
 #menu a.activo {
     color: #FFD166;
-    font-weight: bold;
     text-decoration: underline;
 }
 
+#menu a.activo {
+    font-weight: bold;
+}
 
 #menu a:focus {
     color: #FFD166;
     outline: 3px solid #FFD166;
     outline-offset: 4px;
 }
-
 
 main {
     width: 100%;
@@ -97,11 +82,9 @@ main {
     padding: var(--espacio-3);
 }
 
-
 .portada {
     min-height: 70vh;
 }
-
 
 .servicios {
     display: flex;
@@ -109,14 +92,13 @@ main {
     gap: var(--espacio-3);
 }
 
-
 .servicio {
+    position: relative;
     flex: 1 1 15rem;
     padding: var(--espacio-3);
     border: 1px solid var(--gris-asfalto);
     border-radius: var(--espacio-1);
 }
-
 
 .servicio img {
     width: 100%;
@@ -124,11 +106,20 @@ main {
     display: block;
 }
 
+.etiqueta-nuevo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: var(--naranja);
+    color: var(--azul-oscuro);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
 
 a {
     color: var(--verde-ruta);
 }
-
 
 .boton-reservar {
     display: inline-block;
@@ -140,18 +131,10 @@ a {
     font-weight: bold;
 }
 
-
 .boton-reservar:hover {
     background-color: var(--azul-oscuro);
     color: white;
 }
-
-
-.boton-reservar:focus {
-    outline: 3px solid var(--naranja);
-    outline-offset: 3px;
-}
-
 
 button {
     background-color: var(--verde-ruta);
@@ -162,11 +145,9 @@ button {
     cursor: pointer;
 }
 
-
 button:hover {
     background-color: var(--azul-oscuro);
 }
-
 
 table {
     width: 100%;
@@ -174,25 +155,21 @@ table {
     margin: var(--espacio-3) 0;
 }
 
-
 th, td {
     border: 1px solid var(--gris-asfalto);
     padding: var(--espacio-2);
     text-align: center;
 }
 
-
 th {
     background-color: var(--azul-oscuro);
     color: white;
 }
 
-
 img {
     max-width: 100%;
     height: auto;
 }
-
 
 label {
     display: block;
@@ -201,8 +178,9 @@ label {
     color: var(--azul-oscuro);
 }
 
-
-input, select, textarea {
+input:not([type="radio"]):not([type="checkbox"]),
+select,
+textarea {
     display: block;
     width: 100%;
     padding: var(--espacio-2);
@@ -211,25 +189,62 @@ input, select, textarea {
     border-radius: 4px;
 }
 
+input[type="radio"],
+input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    margin-right: 8px;
+}
 
-a:focus, button:focus, input:focus, textarea:focus, select:focus {
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: var(--espacio-2);
+}
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
     outline: 3px solid var(--naranja);
     outline-offset: 2px;
 }
 
+.whatsapp {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: var(--verde-ruta);
+    color: white;
+    padding: 12px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    z-index: 1000;
+}
+
+.whatsapp:hover {
+    background-color: var(--azul-oscuro);
+    color: white;
+}
+
+.whatsapp:focus {
+    outline: 3px solid var(--naranja);
+    outline-offset: 3px;
+}
 
 footer {
     background-color: var(--azul-oscuro);
     color: white;
     text-align: center;
-    padding: var(--espacio-3);
+    padding: 20px;
 }
-
 
 footer a {
     color: white;
 }
-
 
 @media (max-width: 600px) {
     #menu {
@@ -237,8 +252,8 @@ footer a {
         align-items: center;
     }
 
-
     table {
         font-size: 14px;
     }
 }
+
