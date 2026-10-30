@@ -112,6 +112,46 @@ main {
     width: 100%;
     height: auto;
     display: block;
+
+
+.flota {
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+}
+
+.flota-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+   gap: 1.5rem;
+}
+
+.bici-card {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 1.5rem;
+   border: 1px solid #5B6470;
+   border-radius: 8px;
+   background-color: white;
+}
+
+.bici-card img {
+   width: 100%;
+   height: 180px;
+   object-fit: cover;
+}
+
+.bici-card .precio {
+   color: #1E7A4F;
+   font-weight: bold;
+}
+
+.bici-card .boton-reservar {
+   margin-top: auto;
+   text-align: center;
+}
+
+
 }
 
 .etiqueta-nuevo {
