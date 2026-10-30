@@ -23,93 +23,97 @@
     </header>
 
     <main>
-        <section>
-            <h2>información para reservar</h2>
-            <p>para reservar, puedes escribirnos al correo:</p>
-            <p><a href="mailto:hola@ruedalibre.example">hola@ruedalibre.example</a></p>
-        </section>
-            
-        <h2>formulario de reserva</h2>
+        <div class="reservas-layout">
 
-        <form action="#" method="post">
-            <fieldset>
-                <legend>tus datos</legend>
+            <section class="formulario">
+                <h2>formulario de reserva</h2>
 
-                <label for="nombre">nombre completo:</label>
-                <input type="text" id="nombre" name="nombre" required minlength="3">
+                <form action="#" method="post">
 
-                <label for="documento">número de documento:</label>
-                 <input type="text" id="documento" name="documento" required pattern="[0-9]{6,10}" title="escribe entre 6 y 10 números">
+                    <fieldset>
+                        <legend>tus datos</legend>
 
-                <label for="correo">correo electrónico:</label>
-                <input type="email" id="correo" name="correo" required>
+                        <label for="nombre">nombre completo:</label>
+                        <input type="text" id="nombre" name="nombre" required minlength="3">
 
-                <label for="celular">celular:</label>
-                <input type="tel" id="celular" name="celular" required pattern="3[0-9]{9}" title="escribe 10 números y comienza por 3">
+                        <div class="campos-fila">
+                            <div>
+                                <label for="documento">número de documento:</label>
+                                <input type="text" id="documento" name="documento" required pattern="[0-9]{6,10}" title="escribe entre 6 y 10 números">
+                            </div>
 
-            </fieldset>
+                            <div>
+                                <label for="celular">celular:</label>
+                                <input type="tel" id="celular" name="celular" required pattern="3[0-9]{9}" title="escribe 10 números y comienza por 3">
+                            </div>
+                        </div>
 
-            <fieldset>
-                <legend>tu alquiler</legend>
+                        <label for="correo">correo electrónico:</label>
+                        <input type="email" id="correo" name="correo" required>
+                    </fieldset>
 
-                <label for="fecha">fecha de alquiler:</label>
-                <input type="date" id="fecha" name="fecha" required min="2026-11-01" max="2026-12-31">
+                    <fieldset>
+                        <legend>tu alquiler</legend>
 
-                <p>tipo de bicicleta:</p>
+                        <label for="fecha">fecha de alquiler:</label>
+                        <input type="date" id="fecha" name="fecha" required min="2026-11-01" max="2026-12-31">
 
-                <input type="radio" id="urbana" name="bicicleta" value="urbana" required>
-                <label for="urbana">urbana</label>
+                        <p>tipo de bicicleta:</p>
 
-                <input type="radio" id="montaña" name="bicicleta" value="montaña"> 
-                <label for="montaña">montaña</label>
+                        <input type="radio" id="urbana" name="bicicleta" value="urbana" required>
+                        <label for="urbana">urbana</label>
 
-                <input type="radio" id="electrica" name="bicicleta" value="electrica">
-                <label for="electrica">eléctrica</label>
+                        <input type="radio" id="montaña" name="bicicleta" value="montaña">
+                        <label for="montaña">montaña</label>
 
-                <label for="plan">plan de alquiler:</label>
-                <select id="plan" name="plan" required>
-                    <option value="">elige un plan</option>
-                    <option value="1 hora">1 hora</option>
-                    <option value="medio día">medio día</option>
-                    <option value="día completo">día completo</option>
-                </select>
+                        <input type="radio" id="electrica" name="bicicleta" value="electrica">
+                        <label for="electrica">eléctrica</label>
 
-                <label for="cantidad">cantidad de bicicletas:</label>
-                <input type="number" id="cantidad" name="cantidad" min="1" max="6" required>
+                        <label for="plan">plan de alquiler:</label>
+                        <select id="plan" name="plan" required>
+                            <option value="">elige un plan</option>
+                            <option value="1 hora">1 hora</option>
+                            <option value="medio día">medio día</option>
+                            <option value="día completo">día completo</option>
+                        </select>
 
-                <label for="recorrido">recorrido guiado:</label>
-                <select id="recorrido" name="recorrido">
-                    <option value="ninguno">ninguno</option>
-                    <option value="río y parques">río y parques</option>
-                    <option value="sabores de barrio">sabores de barrio</option>
-                    <option value="reto las palmas">reto las palmas</option>
-                </select>
+                        <label for="cantidad">cantidad de bicicletas:</label>
+                        <input type="number" id="cantidad" name="cantidad" min="1" max="6" required>
 
-                <label for="comentarios">comentarios:</label>
-               <textarea id="comentarios" name="comentarios" maxlength="300"></textarea>
+                        <label for="recorrido">recorrido guiado:</label>
+                        <select id="recorrido" name="recorrido">
+                            <option value="ninguno">ninguno</option>
+                            <option value="río y parques">río y parques</option>
+                            <option value="sabores de barrio">sabores de barrio</option>
+                            <option value="reto las palmas">reto las palmas</option>
+                        </select>
 
-            </fieldset>
+                        <label for="comentarios">comentarios:</label>
+                        <textarea id="comentarios" name="comentarios" maxlength="300"></textarea>
+                    </fieldset>
 
-                <legend>confirmación</legend>
+                    <fieldset>
+                        <legend>confirmación</legend>
 
-                <input type="checkbox" id="politicas" name="politicas" required>
-                <label for="politicas">acepto las políticas de alquiler</label>
-            </fieldset>
+                        <input type="checkbox" id="politicas" name="politicas" required>
+                        <label for="politicas">acepto las políticas de alquiler</label>
+                    </fieldset>
 
-            <button type="submit">enviar reserva</button>
-        </form>
-    </section>
+                    <button type="submit">enviar reserva</button>
+                </form>
+            </section>
 
+            <aside class="contacto">
+                <h2>información de contacto</h2>
+                <p>para reservar, puedes escribirnos al correo:</p>
+                <p><a href="mailto:hola@ruedalibre.example">hola@ruedalibre.example</a></p>
 
-        <aside>
-            <h2>horario de atención</h2>
+                <h3>horario de atención</h3>
+                <p>sábado a domingo</p>
+                <p>salimos a las 7 am</p>
+            </aside>
 
-            <dl>
-                <dh>sábado a domingo</dh>
-                <dh>salimos a las 7 am</dh>
-            
-            </dl>
-        </aside>
+        </div>
     </main>
 
     <footer>
@@ -118,7 +122,5 @@
 
 </body>
   
-    
-    </html>
-
+</html>
 
